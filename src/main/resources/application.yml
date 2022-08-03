@@ -1,0 +1,8 @@
+# pulsar配置
+pulsar:
+  # pulsar服务端地址
+  url: pulsar://192.168.100.101:6650,192.168.100.102:6650,192.168.100.103:6650
+  # 多个topic以逗号分隔
+  topic: topic1,topic2
+  # 消费者组
+  subscription: topicGroup
